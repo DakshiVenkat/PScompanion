@@ -1,6 +1,6 @@
 ﻿clear-host
 $csvFilePath = "D:\PScompanion.csv"
-write-host "`t`t`t`t`t$("*"*25)`n`t`t`t`t`t** POWERSHELL OPTIONS**`n`t`t`t`t`t$("*"*25)" -f red
+write-host "`t`t`t`t`t$("*"*25)`n`t`t`t`t`t** POWERSHELL COMPANION**`n`t`t`t`t`t$("*"*25)" -f red
 write-host "`t`t`t`t`t1) SERVICE`n`t`t`t`t`t2) PROCESS`n`t`t`t`t`t3) LOG FILES`n`t`t`t`t`t4) FOLDER SIZE`n`t`t`t`t`t$("="*25)" -F Cyan
 ############input
 [int]$opt = read-host -Prompt "`t`t`t`t`tEnter An Option(1-4)"
